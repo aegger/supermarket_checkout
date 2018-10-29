@@ -7,7 +7,7 @@ use Mix.Config
 
 # General application configuration
 config :challenge_player,
-  ecto_repos: [ChallengePlayer.Repo]
+  ecto_repos: []
 
 # Configures the endpoint
 config :challenge_player, ChallengePlayerWeb.Endpoint,
